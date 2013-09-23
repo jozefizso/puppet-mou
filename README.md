@@ -52,11 +52,15 @@ mou::preferences { 'Mou':
 
 ## Required Puppet Modules
 
-* `boxen`
-* `property_list_key` (v0.1.0)
+* [boxen] >= 2.1.0
+* [property_list_key] >= v0.1.0
 
 
 ## Development
 
 Write code. Run `script/cibuild` to test it. Check the `script`
 directory for other useful tools.
+
+
+[boxen]: https://github.com/boxen/puppet-boxen
+[property_list_key]: https://github.com/glarizza/puppet-property_list_key
